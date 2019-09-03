@@ -1,0 +1,31 @@
+{
+  "name": "nodetool",
+  "version": "1.0.0",
+  "description": "node tool type",
+  "main": "main.ts",
+  "scripts": {
+    "runmain": "./node_modules/.bin/tsc && node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berlinen/node-tool.git"
+  },
+  "keywords": [
+    "node",
+    "typeScript"
+  ],
+  "author": "berlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berlinen/node-tool/issues"
+  },
+  "homepage": "https://github.com/berlinen/node-tool#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.138",
+    "@types/node": "^12.7.3",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
